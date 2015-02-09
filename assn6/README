@@ -1,0 +1,28 @@
+************************
+*******README**********
+************************
+
+Name  : Juan C. Manzo
+Email : jcmanzo@ucsc.edu
+Assn  : Hw6 Game of Hex and GUI
+
+Included in this project are two implementations of the game of Hex.
+
+~ Folder command_line includes a version of the game which can be run from
+any unix terminal.
+** Build: run 'make'
+** Use: ./main
+
+~ Folder GUI contains src which includes the source for the GUI implementation. If you would like to build it yourself, YOU WILL NEED Qt5 Creator.
+
+~ Folder GUI contain binaries (for Windows, Ubuntu 13, and OS X)
+  These contain a GUI implementation of the game of HEX. The GUI was written
+  in Qt5. Tested ONLY on OS X 10.9, Ubuntu 13 64-bit and Windows 7 64-bit. Windows exe is included in
+  GUI/binaries/Windows_7/Hex.exe
+
+  ** Use: double-click on app or exe to run.
+
+AI does 1,000 game simulations of a n*n board game. This takes a while as it is single threaded only.
+
+I learned a lot about creating GUI's for this project.
+

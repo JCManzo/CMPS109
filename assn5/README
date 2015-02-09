@@ -1,0 +1,32 @@
+************************
+*******README**********
+************************
+
+Name  : Juan C. Manzo
+Email : jcmanzo@ucsc.edu
+Assn  : Hw4 (Game of HEX)
+
+- Build: Run make to create executable main.
+- Usage: ./main
+
+Makefile        -> builds an executable named main.
+
+graph.h         -> Header file for graph ADT.
+graph.cpp       -> main file containing c++ code. Implements a graph ADT and displays it
+                   using an adjecy list representation.
+
+board.h         -> Header for for hex board containing method definitions.
+board.cpp       -> Implementation file for the hex board. Handles board printing and game logic.
+
+disjointset.h   -> Header file for union-find algorithm for disjoint sets.
+disjointset.cpp -> Implementation file for union-find algorithm. Joins individual player nodes
+                   using the hex board representation. Finds if a path exists.
+
+main.cpp        -> Main program. Creates the game board and players WHITE and BLACK. Black goes
+                   first. They alternate each time filling the hex board randomly. A winner is
+                   after every move.
+
+README          -> You're reading it.
+
+I learned more about working classes and utilizing the members from one class in another. I also
+learned about the union-find algorithm for disjoint sets.

@@ -1,0 +1,19 @@
+************************
+*******README**********
+************************
+
+Name  : Juan C. Manzo
+Email : jcmanzo@ucsc.edu
+Assn  : Hw3 (graph)
+Makefile     -> builds an executable named graph.
+
+graph.cpp    -> main file containing c++ code. Implements a graph ADT and displays it using a 2D matrix representation. Graph is run through dijkstra's algorithm (undirectional only, I couldn't implement bidirectional on time.)
+
+Two tests are performed. Both graphs are of size 1,000 (graphs are obtrusive so they're not printed to the standard output). The first graph has a density of .1 and the second of .01. Weights, sources and destinations vertices for both graphs are randomly assigned. Weight has a range of 0-200. Source and destination a range of 0-999.
+
+Using time from the terminal with the above criteria, undirectional search took:
+real    0m0.987s
+
+README       -> You're reading it.
+
+I learned more about working with dijkstra's, unfortunately I ran out of time before I could implement dijkstra's bidirectional correctly.

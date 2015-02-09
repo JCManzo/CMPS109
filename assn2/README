@@ -1,0 +1,16 @@
+************************
+*******README**********
+************************
+
+Name  : Juan C. Manzo
+Email : jcmanzo@ucsc.edu
+Assn  : Hw2 (graph)
+Makefile     -> builds an executable named graph.
+
+graph.cpp    -> main file containing c++ code. Implements a graph ADT and displays it using a 2D matrix representation.
+
+README       -> You're reading it.
+
+I learned more about object oriented programming such classes and constructors in C++ and how they can be used to encapsulate data.
+
+Something interesting that I noticed was that omitting the "this" pointer had no effect on my functions and I learned that it was entirely optional.
